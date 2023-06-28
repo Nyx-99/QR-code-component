@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+@mixin content($color, $size, $margin, $top) {
+    color: $color;
+    text-align: center;
+    font-size: $size;
+    margin-left: $margin;
+    margin-right: $margin;
+    margin-top: $top;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Outfit';
+    background-color: hsl(212, 45%, 89%);
+
+    .container {
+        width: 320px;
+        height: 500px;
+        margin: auto;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 5px 20px hsl(218, 18%, 68%);
+
+        .qr-image {
+            width: 290px;
+            border-radius: 25px;
+            margin-top: 1em;
+        }
+
+        .heading {
+            @include content(
+                hsl(218, 44%, 22%), 24px, 1em, 1em)
+        }
+
+        .paragraph {
+            @include content(
+                hsl(220, 15%, 55%), 15px, 1.5em, 1em)
+        }
+    }
+}
