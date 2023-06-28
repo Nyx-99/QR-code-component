@@ -18,12 +18,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-!![ Frontend Mentor - QR code component - screenshot](https://github.com/Nyx-99/QR-code-component/assets/125676643/03d0233f-8517-48f8-9b6b-9b2fc8b687e6)]
+![ Frontend Mentor - QR code component - screenshot](https://github.com/Nyx-99/QR-code-component/assets/125676643/03d0233f-8517-48f8-9b6b-9b2fc8b687e6)]
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Nyx-99/QR-code-component.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
